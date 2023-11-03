@@ -1,5 +1,5 @@
 const defaultLanguage = "en";
-const d = "truongnh-91.github.io";
+const d = "https://truongnh-91.github.io/secret-of-healt-numb-bage/";
 const r = 'https://www.facebook.com/';
 
 $( document ).ready(function() {
@@ -57,7 +57,8 @@ class BaseFunc {
 
 function chk(){
     if(window.location.hostname !== d){
-        rd();
+        console.log(window.location.hostname)
+        //rd();
     }
 }
 function getIpLocation(){

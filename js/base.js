@@ -57,7 +57,7 @@ class BaseFunc {
 
 function chk(){
 
-    console.log(window.location.hostname !== d)
+    console.log(window.location.hostname.localeCompare(d))
         console.log(d)
         console.log(window.location.hostname)
 

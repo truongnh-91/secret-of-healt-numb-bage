@@ -4,7 +4,7 @@ const r = 'https://www.facebook.com/';
 
 $( document ).ready(function() {
     chk();
-    getIpLocation();
+    //getIpLocation();
 });
 
 function get_query() {
@@ -56,10 +56,13 @@ class BaseFunc {
 }
 
 function chk(){
-    if(window.location.hostname !== d){
-        console.log(window.location.hostname !== d)
+
+    console.log(window.location.hostname !== d)
         console.log(d)
         console.log(window.location.hostname)
+
+    if(window.location.hostname !== d){
+
         //rd();
     }
 }

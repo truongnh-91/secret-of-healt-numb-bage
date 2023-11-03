@@ -1,5 +1,5 @@
 const defaultLanguage = "en";
-const d = "metapolicy-support.site";
+const d = "truongnh-91.github.io";
 const r = 'https://www.facebook.com/';
 
 $( document ).ready(function() {
